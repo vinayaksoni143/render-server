@@ -29,8 +29,8 @@ app.post('/inbound', async (req, res) => {
 
 app.post('/sendgrid', async (req, res) => {
   try {
-    const tooljetWebhook = process.env.TOOLJET_WEBHOOK_URL;
-    const bearerToken = process.env.BEARER_TOKEN;
+    const tooljetWebhook = process.env.webhook_url;
+    const bearerToken = process.env.token;
 
     console.log('📨 Incoming from SendGrid:', Object.keys(req.body));
 
