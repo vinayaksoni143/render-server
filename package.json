@@ -1,0 +1,25 @@
+{
+  "name": "render-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayaksoni143/render-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vinayaksoni143/render-server/issues"
+  },
+  "homepage": "https://github.com/vinayaksoni143/render-server#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "express": "^5.1.0"
+  }
+}
